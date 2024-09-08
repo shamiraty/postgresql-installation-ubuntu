@@ -1,9 +1,9 @@
-# INFORMATION SYSTEM ADMINISTRATION AND DEVELOPMENT
+# INFORMATION SYSTEMS ADMINISTRATION AND DEVELOPMENT
+## OPEN SOURCE TECHNOLOGIES IN WEB DEVELOPMENT
+## POSTGRESQL DEPLOYMENT ON UBUNTU SERVER
+### USER GUIDE DOCUMENTATION
+![R](https://github.com/user-attachments/assets/97e89b03-1d3b-4295-81a6-51671dcdaedb)
 
-# POSTGRESQL DEPLOYMENT ON UBUNTU SERVER
-
-## USER GUIDE DOCUMENTATION
-![1_rzJtXEetdwO96c9OMwH8Kw](https://github.com/user-attachments/assets/721b4e87-978d-464c-9ade-a8bce3e407ce)
 ---
 
 Hello everyone,
@@ -163,3 +163,23 @@ Password: demo2023
  - After adding the server, ensure that it is connected properly and check the database settings.
  - Verify that the database `inventory_mis` is visible under the server `inventory_mis`.
  - You can now start creating and managing your databases through pgAdmin.
+
+
+**My Contacts**
+
+**WhatsApp**  
++255675839840  
++255656848274
+
+**YouTube**  
+[Visit my YouTube Channel](https://www.youtube.com/channel/UCjepDdFYKzVHFiOhsiVVffQ)
+
+**Telegram**  
++255656848274  
++255738144353
+
+**PlayStore**  
+[Visit my PlayStore Developer Page](https://play.google.com/store/apps/dev?id=7334720987169992827&hl=en_US&pli=1)
+
+**GitHub**  
+[Visit my GitHub](https://github.com/shamiraty/)
