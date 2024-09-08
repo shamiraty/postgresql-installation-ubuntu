@@ -70,6 +70,11 @@ sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE inventory_mis TO mana
 sudo -u postgres psql -d inventory_mis -c "GRANT ALL PRIVILEGES ON SCHEMA public TO management;"
 ```
 ### Step 11: Update Django Settings
+- install this library in your virtual enviroment
+
+```python
+pip install psycopg2-binary
+```
 - Open your settings.py file and configure the PostgreSQL database:
 - Configure your Django application to connect to PostgreSQL:
 ```python
