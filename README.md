@@ -70,9 +70,8 @@ sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE inventory_mis TO mana
 sudo -u postgres psql -d inventory_mis -c "GRANT ALL PRIVILEGES ON SCHEMA public TO management;"
 ```
 ### Step 11: Update Django Settings
-### Open your settings.py file and configure the PostgreSQL database:
-### settings.py
-### Configure your Django application to connect to PostgreSQL:
+- Open your settings.py file and configure the PostgreSQL database:
+- Configure your Django application to connect to PostgreSQL:
 ```python
 DATABASES = {
     'default': {
