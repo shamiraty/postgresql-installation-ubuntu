@@ -1,6 +1,6 @@
 # INFORMATION SYSTEM ADMINISTRATION AND DEVELOPMENT
 
-#POSTGRESQL DEPLOYMENT ON UBUNTU SERVER
+# POSTGRESQL DEPLOYMENT ON UBUNTU SERVER
 
 ## USER GUIDE DOCUMENTATION
 ![1_rzJtXEetdwO96c9OMwH8Kw](https://github.com/user-attachments/assets/721b4e87-978d-464c-9ade-a8bce3e407ce)
@@ -45,14 +45,12 @@ sudo apt install pgadmin4-web
 ### Step 8: Configure the Web Server for pgAdmin
 ```python
 sudo /usr/pgadmin4/bin/setup-web.sh
-
 ```
-
 ### Step 9: Set Up pgAdmin Web Access
-### You will be prompted to set a username and password for accessing pgAdmin.
-### Enter the following credentials:
-### - Email: demo@gmail.com
-### - Password: demo2023
+**You will be prompted to set a username and password for accessing pgAdmin.**
+- Enter the following credentials:
+- Email: demo@gmail.com
+- Password: demo2023
 
 ### Step 10: Configure PostgreSQL Database and User for Django
 ### (a) Create a PostgreSQL User
@@ -140,22 +138,24 @@ sudo systemctl start postgresql
 ```
 
 ### Step 17: Access pgAdmin in Browser
-### Open your browser and navigate to:
-### - http://10.0.2.15/pgadmin4
-
+- Open your browser and navigate to:
+```python
+http://10.0.2.15/pgadmin4
+```
 ### Step 18: Log in to pgAdmin
-### After opening the page, log in with the following credentials:
-### - Email: demo@gmail.com
-### - Password: demo2023
-
+- After opening the page, log in with the following credentials:
+```python
+Email: demo@gmail.com
+Password: demo2023
+```
 ### Step 19: Add a Server in pgAdmin
-### Once logged in, add a new server with the following details:
-### - Name: inventory_mis
-### - Host: 10.0.2.15
-### - Username: management
-### - Password: management
+**Once logged in, add a new server with the following details:**
+- Name: inventory_mis
+- Host: 10.0.2.15
+- Username: management
+- Password: management
 
 ### Step 20: Finalize Configuration in pgAdmin
-### - After adding the server, ensure that it is connected properly and check the database settings.
-### - Verify that the database `inventory_mis` is visible under the server `inventory_mis`.
-### - You can now start creating and managing your databases through pgAdmin.
+ - After adding the server, ensure that it is connected properly and check the database settings.
+ - Verify that the database `inventory_mis` is visible under the server `inventory_mis`.
+ - You can now start creating and managing your databases through pgAdmin.
